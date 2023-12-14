@@ -3,6 +3,7 @@ using System.Text;
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers{
 
@@ -18,14 +19,19 @@ public class AccountController : BaseApiController
         }
 
         [HttpPost("register")] //POST: api/account/register?username=dave&password=pwd
-        public async Task<ActionResult<AppUser>> Register(string username, string password)
+        public async Task<ActionResult<AppUser>> Register(RegisterDto registerDto)
         {
+
+            if(await UserExists(registerDto.Username)) 
+            return BadRequest("Username is taken");
+
+
             using var hmac = new HMACSHA512();
 
             var user = new AppUser
             {
-                UserName = username,
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)),
+                UserName = registerDto.Username,
+                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
                 PasswordSalt = hmac.Key
 
             };
@@ -35,6 +41,10 @@ public class AccountController : BaseApiController
             return user;
         }
 
+        private async Task<bool> UserExists(string username)
+        {
+            return await _context.Users.AnyAsync(x => x.UserName ==username.ToLower());
+        }
 
 }
 
