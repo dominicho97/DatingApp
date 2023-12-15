@@ -194,3 +194,6 @@ C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingAp
 C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingApp\API\obj\Debug\net8.0\API.pdb
 C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingApp\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingApp\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingApp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\domin\OneDrive\Bureaublad\thuis\eigen_projecten\dotnet-angular\DatingApp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
