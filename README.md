@@ -14,5 +14,7 @@ When a wrong account attempts to login a **Toastr** notification will be sent as
 and ofcourse the backend request won't go through.
 ![401](https://github.com/dominicho97/DatingApp/assets/43000003/1f93a5fb-66e1-41e6-b894-cf892b5293e8)
 ![401-2](https://github.com/dominicho97/DatingApp/assets/43000003/bbf7b1be-0bfc-4d72-a854-3ea2faaf8aef)
+
+### Succesfull login
 ![200](https://github.com/dominicho97/DatingApp/assets/43000003/62d7405b-fec7-4b83-b6f8-8c24ffee87ed)
 ![logged_in](https://github.com/dominicho97/DatingApp/assets/43000003/9ad0d75a-91ee-4e8a-9583-eddc3ed1fb32)
