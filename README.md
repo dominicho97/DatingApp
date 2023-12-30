@@ -1,5 +1,6 @@
 # Dating app
 Dating App prototype made with ASP.NET Core and Angular with TypeScript.
+Bootstrap is used for the design layout.
 ## Home screen
 ![app1](https://github.com/dominicho97/DatingApp/assets/43000003/cfe3ba0c-431d-48c0-8939-09745302cdcc)
 
