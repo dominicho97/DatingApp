@@ -5,6 +5,8 @@ Bootstrap is used for the design layout.
 ![vscode_datingapp](https://github.com/dominicho97/DatingApp/assets/43000003/67d38e82-fd90-4f3a-8013-bd017accfa46)
 <br>
 The project contains an **API** folder consisting of folders such as **DTO**,**Entities**,**Data** that includes code-first migrations which makes the **backend** of the application.
+<br>
+Then the project also has a **client** folder that contains many different folders for the **Angular application**.
 
 
 
