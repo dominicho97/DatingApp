@@ -6,7 +6,7 @@ Bootstrap is used for the design layout.
 <br>
 The project contains an **API** folder consisting of folders such as **DTO**,**Entities**,**Data** that includes code-first migrations which makes the **backend** of the application.
 <br>
-Then the project also has a **client** folder that contains many different folders for the **Angular application**.
+Then the project also has a **client** folder that contains many different folders for the **Angular application** which makes the **frontend**.
 
 
 
