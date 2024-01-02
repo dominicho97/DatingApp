@@ -20,7 +20,7 @@ Then the project also has a **client** folder that contains many different folde
 ![app2](https://github.com/dominicho97/DatingApp/assets/43000003/c6850a42-6e87-4d35-81f7-85cfd06b2d1f)
 
 ## Login
-Authentication is used so only the registered users can log in
+Authentication is used so only the registered users can log in with the use of **JWT bearer token**.
 
 ### Failed login
 When a wrong account attempts to login a **Toastr** notification will be sent as feedback,
