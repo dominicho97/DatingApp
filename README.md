@@ -1,6 +1,12 @@
 # Dating app
 Dating App prototype made with ASP.NET Core and Angular with TypeScript.
 Bootstrap is used for the design layout.
+## Project setup
+![vscode_datingapp](https://github.com/dominicho97/DatingApp/assets/43000003/67d38e82-fd90-4f3a-8013-bd017accfa46)
+The project contains an **API** folder consisting of folders such as **DTO**,**Entities**,**Data** that includes code-first migrations which makes the **backend** of the application.
+
+
+
 ## Home screen
 ![app1](https://github.com/dominicho97/DatingApp/assets/43000003/cfe3ba0c-431d-48c0-8939-09745302cdcc)
 
