@@ -1,6 +1,7 @@
 # Dating app
 Dating App prototype made with ASP.NET Core and Angular with TypeScript.
 Bootstrap is used for the design layout.
+This is a small project made to learn.Net fullstack development with Angular/Typescript
 ## Project setup
 ![vscode_datingapp](https://github.com/dominicho97/DatingApp/assets/43000003/67d38e82-fd90-4f3a-8013-bd017accfa46)
 <br>
